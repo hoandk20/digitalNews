@@ -1,0 +1,132 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+body{
+    background-color: #e7e7e7;
+}
+.container{
+    width:886px;
+    height:auto;
+    margin: 0 auto;
+}
+.preheader{
+    background: url(../img/preheader.jpg);
+    width: 886px;
+    height: 71px;
+}
+.header{
+    background: url(../img/header.jpg);
+    width: 886px;
+    height: 78px;
+}
+.header h3{
+    margin: 0;
+    color: white;
+    padding-left: 100px;
+}
+.menu a{
+    color: white;
+    padding-left: 70px;
+    text-decoration: none;
+    line-height: 30px;
+}
+.menu{
+    background: url(../img/menu.jpg);
+    width: 886px;
+    height: 30px;
+}
+.main{
+    background: url(../img/bg.jpg);
+    width: 886px;
+    height: auto;
+    display: flex;
+}
+.left{
+    width: 65%;
+    height: auto;
+    padding-left: 90px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.title{
+    font-size: 20px;
+    color: #0f7a31;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.image img {
+    padding-left: 70px;
+    width: 200px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.description{
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #dcdaed;
+}
+.information{
+    float: right;
+    color: #054018;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.right{
+    width: 35%;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-left: 1px solid black;
+    padding-right: 80px;
+}
+.shortDes{
+    font-family: sans-serif;
+}
+.newRight{
+    color: #0f7a31;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.input{
+    border: 1px black dashed;
+    width: 130px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.submit{
+    border: none;
+    font-weight: bold;
+    color: #0f7a31;
+    background-color: transparent;
+}
+.list{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.list a{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #0f7a31;
+}
+.footer{
+    background: url(../img/footer.jpg);
+    width: 886px;
+    height: 78px;
+
+}
+.paging {
+    padding: 40px;
+    height: 5px;
+}
+.paging a{
+    text-decoration: none;
+    background: gainsboro;
+}
+
